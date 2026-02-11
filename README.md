@@ -15,57 +15,57 @@ Cada função contém:
 - [Learning Excel](#learning-excel)
   - [Índice](#índice)
   - [🔢 Matemática e Estatística](#-matemática-e-estatística)
-    - [1) SOMA](#1-soma)
-    - [2) MÉDIA](#2-média)
-    - [3) MÁXIMO](#3-máximo)
-    - [4) MÍNIMO](#4-mínimo)
-    - [5) CONT.NÚM](#5-contnúm)
-    - [16) SOMASE](#16-somase)
-    - [17) SOMASES](#17-somases)
-    - [18) CONT.SE](#18-contse)
-    - [19) CONT.SES](#19-contses)
-    - [20) MÉDIASE](#20-médiase)
-    - [21) MÉDIASES](#21-médiases)
+    - [SOMA](#soma)
+    - [MÉDIA](#média)
+    - [MÁXIMO](#máximo)
+    - [MÍNIMO](#mínimo)
+    - [CONT.NÚM](#contnúm)
+    - [SOMASE](#somase)
+    - [SOMASES](#somases)
+    - [CONT.SE](#contse)
+    - [CONT.SES](#contses)
+    - [MÉDIASE](#médiase)
+    - [MÉDIASES](#médiases)
   - [🧠 Lógicas](#-lógicas)
-    - [6) SE](#6-se)
-    - [7) E](#7-e)
-    - [8) OU](#8-ou)
-    - [9) SEERRO](#9-seerro)
+    - [SE](#se)
+    - [E](#e)
+    - [OU](#ou)
+    - [SEERRO](#seerro)
   - [🔎 Procura e Referência](#-procura-e-referência)
-    - [10) PROCV](#10-procv)
-    - [11) PROCX](#11-procx)
-    - [12) ÍNDICE](#12-índice)
-    - [13) CORRESP](#13-corresp)
-    - [23) FILTRO (Excel 365)](#23-filtro-excel-365)
-    - [24) ÚNICO](#24-único)
-    - [25) CLASSIFICAR](#25-classificar)
+    - [PROCV](#procv)
+    - [PROCX](#procx)
+    - [ÍNDICE](#índice-1)
+    - [CORRESP](#corresp)
+    - [FILTRO (Excel 365)](#filtro-excel-365)
+    - [ÚNICO](#único)
+    - [CLASSIFICAR](#classificar)
   - [✍ Texto](#-texto)
-    - [14) CONCAT](#14-concat)
-    - [26) EXT.TEXTO](#26-exttexto)
-    - [27) ARRUMAR](#27-arrumar)
-    - [28) LOCALIZAR](#28-localizar)
+    - [CONCAT](#concat)
+    - [EXT.TEXTO](#exttexto)
+    - [ARRUMAR](#arrumar)
+    - [LOCALIZAR](#localizar)
   - [📅 Data](#-data)
-    - [15) HOJE](#15-hoje)
+    - [HOJE](#hoje)
   - [🧮 Análise de Dados](#-análise-de-dados)
-    - [22) SOMARPRODUTO](#22-somarproduto)
-    - [29) DATA](#29-data)
-    - [30) DIAS](#30-dias)
+    - [SOMARPRODUTO](#somarproduto)
+    - [DATA](#data)
+    - [DIAS](#dias)
   - [🔗 Combinações de Funções Mais Usadas](#-combinações-de-funções-mais-usadas)
-    - [1) ÍNDICE + CORRESP](#1-índice--corresp)
-    - [2) SE + E](#2-se--e)
-    - [3) SE + OU](#3-se--ou)
-    - [4) SEERRO + PROCV](#4-seerro--procv)
-    - [5) SOMARPRODUTO + CONDIÇÕES](#5-somarproduto--condições)
-    - [6) ÍNDICE + CORRESP + CORRESP](#6-índice--corresp--corresp)
-    - [7) CONCAT + TEXTO](#7-concat--texto)
-    - [8) FILTRO + CLASSIFICAR](#8-filtro--classificar)
-    - [9) ÚNICO + CONT.SE](#9-único--contse)
-    - [10) HOJE + SE](#10-hoje--se)
+    - [ÍNDICE + CORRESP](#índice--corresp)
+    - [SE + E](#se--e)
+    - [SE + OU](#se--ou)
+    - [SEERRO + PROCV](#seerro--procv)
+    - [SOMARPRODUTO + CONDIÇÕES](#somarproduto--condições)
+    - [ÍNDICE + CORRESP + CORRESP](#índice--corresp--corresp)
+    - [CONCAT + TEXTO](#concat--texto)
+    - [FILTRO + CLASSIFICAR](#filtro--classificar)
+    - [ÚNICO + CONT.SE](#único--contse)
+    - [HOJE + SE](#hoje--se)
     - [📌 Dica Importante](#-dica-importante)
 
 ## 🔢 Matemática e Estatística
 
-### 1) SOMA
+### SOMA
 
 **Descrição**
 Adiciona valores numéricos individuais, intervalos ou combinações de ambos. Ignora células vazias e textos.
@@ -99,7 +99,7 @@ Se A1:A5 = 10, 20, 30, 40, 50
 
 ```
 
-### 2) MÉDIA
+### MÉDIA
 
 **Descrição**
 Calcula a média aritmética de valores numéricos.
@@ -133,7 +133,7 @@ Valores: 6, 8, 10, 6
 
 ```
 
-### 3) MÁXIMO
+### MÁXIMO
 
 **Descrição**
 Retorna o maior valor dentro de um conjunto de dados.
@@ -167,7 +167,7 @@ Valores: 5, 12, 7, 20, 9
 
 ```
 
-### 4) MÍNIMO
+### MÍNIMO
 
 **Descrição**
 Retorna o menor valor do conjunto.
@@ -185,7 +185,7 @@ Encontrar menor custo, pior nota ou menor tempo.
 
 **Resultado:** esperado: menor valor do intervalo
 
-### 5) CONT.NÚM
+### CONT.NÚM
 
 **Descrição**
 Conta quantas células possuem números.
@@ -213,7 +213,7 @@ A1:A5 = 10, "Texto", 5, vazio, 8
 
 ```
 
-### 16) SOMASE
+### SOMASE
 
 **Descrição:**  
 Soma valores com base em um critério específico.
@@ -247,7 +247,7 @@ Se A1:A5 = 5, 15, 20, 8, 12
 
 ```
 
-### 17) SOMASES
+### SOMASES
 
 **Descrição:**  
 Soma valores usando múltiplos critérios.
@@ -274,7 +274,7 @@ SOMASES(intervalo_soma; intervalo1; critério1; ...)
 **Resultado:**  
 Soma dos valores em C que atendem ambos critérios.
 
-### 18) CONT.SE
+### CONT.SE
 
 **Descrição:**  
 Conta células que atendem um critério.
@@ -301,7 +301,7 @@ CONT.SE(intervalo; critério)
 **Resultado:**  
 Quantidade de valores ≥ 7.
 
-### 19) CONT.SES
+### CONT.SES
 
 **Descrição:**  
 Conta com múltiplos critérios.
@@ -328,7 +328,7 @@ CONT.SES(intervalo1; critério1; ...)
 **Resultado:**  
 Número de registros que atendem ambos critérios.
 
-### 20) MÉDIASE
+### MÉDIASE
 
 **Descrição:**  
 Calcula média com base em critério.
@@ -355,7 +355,7 @@ MÉDIASE(intervalo; critério; [intervalo_média])
 **Resultado:**  
 Média apenas dos valores ≥7.
 
-### 21) MÉDIASES
+### MÉDIASES
 
 **Descrição:**  
 Média com múltiplos critérios.
@@ -373,7 +373,7 @@ MÉDIASES(intervalo_média; intervalo1; critério1; ...)
 
 ## 🧠 Lógicas
 
-### 6) SE
+### SE
 
 **Descrição**
 Executa um teste lógico e retorna valores diferentes dependendo **resultado:**.
@@ -407,7 +407,7 @@ Se A1 = 8
 
 ```
 
-### 7) E
+### E
 
 **Descrição**
 Retorna VERDADEIRO apenas se todas as condições forem verdadeiras.
@@ -435,7 +435,7 @@ E(condição1; condição2; ...)
 
 VERDADEIRO ou FALSO
 
-### 8) OU
+### OU
 
 **Descrição**
 Retorna VERDADEIRO se pelo menos uma condição for verdadeira.
@@ -451,7 +451,7 @@ OU(condição1; ...)
 
 ```
 
-### 9) SEERRO
+### SEERRO
 
 **Descrição**
 Captura erros em fórmulas e substitui por outro valor.
@@ -487,7 +487,7 @@ Se B1 = 0
 
 ## 🔎 Procura e Referência
 
-### 10) PROCV
+### PROCV
 
 **Descrição**
 Busca um valor na primeira coluna de uma tabela e retorna um valor correspondente de outra coluna.
@@ -515,7 +515,7 @@ PROCV(valor_procurado; tabela; núm_coluna; [procurar_intervalo])
 
 Retorna o valor correspondente da coluna 2.
 
-### 11) PROCX
+### PROCX
 
 **Descrição**
 Versão moderna e mais poderosa de busca.
@@ -531,7 +531,7 @@ PROCX(valor; matriz_procura; matriz_retorno)
 
 ```
 
-### 12) ÍNDICE
+### ÍNDICE
 
 **Descrição**
 Retorna valor baseado em posição.
@@ -547,7 +547,7 @@ Busca dinâmica sem depender de ordem de colunas.
 
 ```
 
-### 13) CORRESP
+### CORRESP
 
 **Descrição**
 Localiza posição de um valor.
@@ -563,7 +563,7 @@ CORRESP(valor; matriz; 0)
 
 ```
 
-### 23) FILTRO (Excel 365)
+### FILTRO (Excel 365)
 
 **Descrição:**  
 Extrai dados que atendem critérios.
@@ -590,7 +590,7 @@ FILTRO(matriz; incluir)
 **Resultado:**  
 Retorna apenas linhas aprovadas.
 
-### 24) ÚNICO
+### ÚNICO
 
 **Descrição:**  
 Retorna valores sem duplicatas.
@@ -609,7 +609,7 @@ Listas únicas automáticas.
 **Resultado:**  
 Lista sem repetições.
 
-### 25) CLASSIFICAR
+### CLASSIFICAR
 
 **Descrição:**  
 Ordena dados dinamicamente.
@@ -635,7 +635,7 @@ CLASSIFICAR(matriz; [índice]; [ordem])
 
 ## ✍ Texto
 
-### 14) CONCAT
+### CONCAT
 
 **Descrição**
 Une textos.
@@ -659,7 +659,7 @@ CONCAT(texto1; ...)
 
 ```
 
-### 26) EXT.TEXTO
+### EXT.TEXTO
 
 **Descrição:**  
 Extrai parte do texto.
@@ -691,7 +691,7 @@ EXT.TEXTO(texto; início; núm_caract)
 
 ```
 
-### 27) ARRUMAR
+### ARRUMAR
 
 **Descrição:**  
 Remove espaços extras.
@@ -707,7 +707,7 @@ ARRUMAR(texto)
 
 ```
 
-### 28) LOCALIZAR
+### LOCALIZAR
 
 **Descrição:**  
 Encontra posição de texto (case-sensitive).
@@ -725,7 +725,7 @@ LOCALIZAR(texto_procurado; dentro_texto)
 
 ## 📅 Data
 
-### 15) HOJE
+### HOJE
 
 **Descrição**
 Retorna data atual do sistema.
@@ -753,7 +753,7 @@ Ex:
 
 ## 🧮 Análise de Dados
 
-### 22) SOMARPRODUTO
+### SOMARPRODUTO
 
 **Descrição:**  
 Multiplica arrays e soma os resultados.
@@ -787,7 +787,7 @@ Se A = 2,3,4 e B = 10,20,30
 
 ```
 
-### 29) DATA
+### DATA
 
 **Descrição:**  
 Cria datas válidas.
@@ -819,7 +819,7 @@ DATA(ano; mês; dia)
 
 ```
 
-### 30) DIAS
+### DIAS
 
 **Descrição:**  
 Calcula diferença entre datas.
@@ -863,7 +863,7 @@ Cada combinação abaixo mostra:
 - Como funciona  
 - Exemplo prático  
 
-### 1) ÍNDICE + CORRESP
+### ÍNDICE + CORRESP
 
 **O que faz:**
 Busca valores em uma tabela de forma dinâmica, sem a limitação de procurar apenas da esquerda para a direita.
@@ -902,7 +902,7 @@ B:B = salários
 **Resultado:**
 Retorna o salário de João.
 
-### 2) SE + E
+### SE + E
 
 **O que faz:**
 Executa uma ação apenas se múltiplas condições forem verdadeiras.
@@ -929,7 +929,7 @@ SE(E(cond1; cond2); valor_se_verdadeiro; valor_se_falso)
 **Resultado:**
 "Aprovado" somente se nota ≥7 E frequência ≥75%.
 
-### 3) SE + OU
+### SE + OU
 
 **O que faz:**
 Executa lógica quando pelo menos uma condição é verdadeira.
@@ -945,7 +945,7 @@ Cenários com alternativas válidas.
 
 ```
 
-### 4) SEERRO + PROCV
+### SEERRO + PROCV
 
 **O que faz:**
 Evita que buscas retornem erros visíveis.
@@ -972,7 +972,7 @@ SEERRO(PROCV(...); "Não encontrado")
 **Resultado:**
 Se não achar o valor, mostra "Não encontrado" em vez de #N/D.
 
-### 5) SOMARPRODUTO + CONDIÇÕES
+### SOMARPRODUTO + CONDIÇÕES
 
 **O que faz:**
 Permite soma com múltiplos critérios sem SOMASES.
@@ -991,7 +991,7 @@ Análises avançadas em versões antigas do Excel.
 **Resultado:**
 Soma valores de João em Janeiro.
 
-### 6) ÍNDICE + CORRESP + CORRESP
+### ÍNDICE + CORRESP + CORRESP
 
 **O que faz:**
 Busca em duas dimensões (linha e coluna).
@@ -1015,7 +1015,7 @@ Buscar vendas de João em Março numa tabela de meses.
 **Resultado:**
 Valor exato na interseção.
 
-### 7) CONCAT + TEXTO
+### CONCAT + TEXTO
 
 **O que faz:**
 Combina texto com números formatados.
@@ -1034,7 +1034,7 @@ Criação de mensagens dinâmicas.
 **Resultado:**
 "Total: R$ 150,00"
 
-### 8) FILTRO + CLASSIFICAR
+### FILTRO + CLASSIFICAR
 
 **O que faz:**
 Filtra e ordena automaticamente.
@@ -1053,7 +1053,7 @@ Relatórios dinâmicos sem Tabela Dinâmica.
 **Resultado:**
 Lista apenas aprovados já ordenados.
 
-### 9) ÚNICO + CONT.SE
+### ÚNICO + CONT.SE
 
 **O que faz:**
 Cria resumo de frequência.
@@ -1081,7 +1081,7 @@ Contagem:
 **Resultado:**
 Quantas vezes cada item aparece.
 
-### 10) HOJE + SE
+### HOJE + SE
 
 **O que faz:**
 Automatiza status baseado em datas.
